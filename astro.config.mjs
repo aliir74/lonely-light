@@ -10,17 +10,5 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   output: 'server',
   adapter: netlify(),
-  // integrations: [
-  //   DecapCMS({
-  //     config: {
-  //       backend: {
-  //         name: 'git-gateway',
-  //         branch: 'main',
-  //       },
-  //       collections: [
-          
-  //       ],
-  //     },
-  //   }),
-  // ],
+
 });
