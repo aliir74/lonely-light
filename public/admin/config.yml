@@ -2,9 +2,10 @@ media_folder: "src/assets/images" # Location where files will be stored in the r
 public_folder: "src/assets/images" # The src attribute for uploaded media
 
 backend:
-  repo: aliir74/lonely-light
-  name: github
+  name: git-gateway
   branch: main
+
+
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
